@@ -114,17 +114,12 @@ Mythic plus score: ${mythic_plus_scores.all}
                 case 'h':
                     bot.sendMessage({
                         to: channelID,
-                        message: `\`!raiderio karatär server\` för att få info om den karaktären ifrån Raider.io.
+                        message: `\`!raiderio karaktär server\` för att få info om den karaktären ifrån Raider.io.
 För att få en roll, gå till #get-role och skriv \`!tank eller !healer eller !dps\`
 För att se affixes för den här veckan skriv \`!affixes\`
                         `
                     });
                 break;
-                default:
-                    bot.sendMessage({
-                        to: userID,
-                        message: `Känner inte till kommandot. Skriv !help, !h eller !hjälp för att få reda på alla kommandon`
-                    });
             }
         }
      }
